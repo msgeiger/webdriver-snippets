@@ -7,7 +7,7 @@ require 'ci/reporter/rake/test_unit_loader.rb'
 require File.dirname(__FILE__) + '/wdsetup.rb'
 require File.dirname(__FILE__) + '/snippets.rb'
 
-class Datanex < Test::Unit::TestCase
+class Geiger < Test::Unit::TestCase
   def setup
     #require File.dirname(__FILE__) + '/build_config.rb'
     dispatcher = WDSetup.new(WDBROWSER, WDVERSION, WDHOST, WDTIMEOUT, WDURL)
