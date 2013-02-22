@@ -1,7 +1,7 @@
-require File.dirname(__FILE__) + '/build_config.rb'
-require File.dirname(__FILE__) + '/test_unit_config.rb'
+require File.dirname(__FILE__) + '/../build_config.rb'
+require File.dirname(__FILE__) + '/../test_unit_config.rb'
 
-# Instantiate custom Datanex handler
+# Instantiate custom Geiger handler
 class TestLinks < Geiger 
   def test_links
     driver = self.get_driver
