@@ -5,9 +5,10 @@ module Dispatcher
         caps = Selenium::WebDriver::Remote::Capabilities.internet_explorer(
           :javascript_enabled => false, 
           :version => version)
-        @wd_driver = Selenium::WebDriver.for(
-          :remote, :url => host, 
-          :desired_capabilities => caps)
+        @wd_driver = Selenium::WebDriver.for :IE
+        #@wd_driver = Selenium::WebDriver.for(
+        #  :remote, :url => host, 
+        #  :desired_capabilities => caps)
         @wd_wait = Selenium::WebDriver::Wait.new :timeout => timeout 
         @wd_url = url 
       when 'firefox'

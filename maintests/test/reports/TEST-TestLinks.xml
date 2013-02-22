@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite skipped="0" time="1.084062" errors="2" assertions="0" failures="0" tests="1" name="TestLinks">
+  <testcase time="1.064061" assertions="0" name="test_links">
+    <error type="ArgumentError" message="unknown driver: :IE">
+unknown driver: :IE (ArgumentError)
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/selenium-webdriver-2.29.0/lib/selenium/webdriver/common/driver.rb:49:in `for'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/selenium-webdriver-2.29.0/lib/selenium/webdriver.rb:67:in `for'
+./../wdsetup.rb:8:in `initialize'
+./../test_unit_config.rb:13:in `new'
+./../test_unit_config.rb:13:in `setup'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/fixture.rb:202:in `send'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/fixture.rb:202:in `run_fixture_callback'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/fixture.rb:207:in `call'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/fixture.rb:207:in `run_fixture_callback'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/fixture.rb:190:in `run_fixture'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/fixture.rb:186:in `each'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/fixture.rb:186:in `run_fixture'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/fixture.rb:215:in `run_setup'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/testcase.rb:430:in `run'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/testsuite.rb:121:in `run_test'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/testsuite.rb:53:in `run'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/testsuite.rb:121:in `run_test'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/testsuite.rb:53:in `run'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/testsuite.rb:121:in `run_test'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/testsuite.rb:53:in `run'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/ui/testrunnermediator.rb:65:in `run_suite'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/ui/testrunnermediator.rb:44:in `run'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/ui/testrunnermediator.rb:100:in `with_listener'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/ui/testrunnermediator.rb:40:in `run'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/ui/testrunner.rb:25:in `start'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/autorunner.rb:409:in `run'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/autorunner.rb:465:in `change_work_directory'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/autorunner.rb:408:in `run'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/autorunner.rb:59:in `run'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit.rb:502
+test_links.rb:6    </error>
+    <error type="NoMethodError" message="undefined method `quit' for nil:NilClass">
+undefined method `quit' for nil:NilClass (NoMethodError)
+./../test_unit_config.rb:20:in `teardown'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/fixture.rb:202:in `send'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/fixture.rb:202:in `run_fixture_callback'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/fixture.rb:207:in `call'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/fixture.rb:207:in `run_fixture_callback'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/fixture.rb:190:in `run_fixture'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/fixture.rb:186:in `each'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/fixture.rb:186:in `run_fixture'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/fixture.rb:223:in `run_teardown'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/testcase.rb:439:in `run'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/testsuite.rb:121:in `run_test'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/testsuite.rb:53:in `run'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/testsuite.rb:121:in `run_test'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/testsuite.rb:53:in `run'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/testsuite.rb:121:in `run_test'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/testsuite.rb:53:in `run'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/ui/testrunnermediator.rb:65:in `run_suite'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/ui/testrunnermediator.rb:44:in `run'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/ui/testrunnermediator.rb:100:in `with_listener'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/ui/testrunnermediator.rb:40:in `run'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/ui/testrunner.rb:25:in `start'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/autorunner.rb:409:in `run'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/autorunner.rb:465:in `change_work_directory'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/autorunner.rb:408:in `run'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit/autorunner.rb:59:in `run'
+c:/Rails/Ruby1.8.7/lib/ruby/gems/1.8/gems/test-unit-2.5.4/lib/test/unit.rb:502
+test_links.rb:6    </error>
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>
