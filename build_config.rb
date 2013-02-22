@@ -1,6 +1,5 @@
-WDVERSION = 'IE7'
-WDHOST = 'http://some_selenium_rc'
-#WDHOST = 'localhost'
-WDURL = 'https://some_test_url'
-WDTIMEOUT = '60'
-WDBROWSER = '*iexplore'
+WDVERSION='XP'
+WDHOST='http://localhost:5555/wd/hub'
+WDURL='http://marinebay.com'
+WDTIMEOUT=120
+WDBROWSER='*iexplore'
